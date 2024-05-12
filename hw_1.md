@@ -262,3 +262,4 @@ stv@test:~$ curl http://178.154.201.21:8001
   ]
 }
 ```
+![ad](https://github.com/SemikovaTV/hw_k8s/blob/main/img/1.jpg)
