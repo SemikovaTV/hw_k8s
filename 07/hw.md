@@ -12,10 +12,29 @@
 Создать Deployment приложения, использующего локальный PV, созданный вручную.
 
 1. Создать Deployment приложения, состоящего из контейнеров busybox и multitool.
+
+![ad](https://github.com/SemikovaTV/hw_k8s/blob/main/img/44.jpg)
+
 2. Создать PV и PVC для подключения папки на локальной ноде, которая будет использована в поде.
-3. Продемонстрировать, что multitool может читать файл, в который busybox пишет каждые пять секунд в общей директории. 
+
+![ad](https://github.com/SemikovaTV/hw_k8s/blob/main/img/45.jpg)
+
+3. Продемонстрировать, что multitool может читать файл, в который busybox пишет каждые пять секунд в общей директории.
+
+![ad](https://github.com/SemikovaTV/hw_k8s/blob/main/img/46.jpg)
+
+![ad](https://github.com/SemikovaTV/hw_k8s/blob/main/img/47.jpg)
+
 4. Удалить Deployment и PVC. Продемонстрировать, что после этого произошло с PV. Пояснить, почему.
+
+![ad](https://github.com/SemikovaTV/hw_k8s/blob/main/img/49.jpg)
+
 5. Продемонстрировать, что файл сохранился на локальном диске ноды. Удалить PV.  Продемонстрировать что произошло с файлом после удаления PV. Пояснить, почему.
+
+![ad](https://github.com/SemikovaTV/hw_k8s/blob/main/img/50.jpg)
+
+![ad](https://github.com/SemikovaTV/hw_k8s/blob/main/img/51.jpg)
+
 5. Предоставить манифесты, а также скриншоты или вывод необходимых команд.
 
 ------
