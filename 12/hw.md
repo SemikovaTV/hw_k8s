@@ -24,6 +24,9 @@
 Задание буду выполнять при помощи kubespray по инструкции, представленной в лекции:
 
 * Устанавливаю необходимые пакеты, kubespray и ansible:
+
+![ad](https://github.com/SemikovaTV/hw_k8s/blob/main/12/img/1.jpg)
+
 ```bash
 stv@kube:~$ ansible --version
 ansible [core 2.16.8]
@@ -112,4 +115,12 @@ all:
 ```bash
 stv@kube:~/kubespray$ ansible-playbook -i inventory/myclaster/hosts.yaml cluster.yml -b -v &
 ```
+Вижу что playbook завершился успешно
 
+![ad](https://github.com/SemikovaTV/hw_k8s/blob/main/12/img/2.jpg)
+
+Иду на master-ноду и проверяю ноды:
+
+![ad](https://github.com/SemikovaTV/hw_k8s/blob/main/12/img/3.jpg)
+
+Кластер работает, все ноды в состоянии готовности.
