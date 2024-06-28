@@ -68,9 +68,9 @@ DEBUG: adding host node5 to group kube_node
 all:
   hosts:
     node1:
-      ansible_host: 10.0.0.15
-      ip: 10.0.0.15
-      access_ip: 10.0.0.15
+      ansible_host: 10.0.0.12
+      ip: 10.0.0.12
+      access_ip: 10.0.0.12
     node2:
       ansible_host: 10.0.0.31
       ip: 10.0.0.31
